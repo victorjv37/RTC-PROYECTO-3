@@ -22,8 +22,6 @@ function handleNavigation(event) {
   }
 }
 
-// Agregar el evento de clic a todos los elementos 'a' dentro de 'nav'
 document.querySelector('nav').addEventListener('click', handleNavigation);
 
-// Renderizar la vista de inicio al cargar la página por primera vez
 renderHome();
